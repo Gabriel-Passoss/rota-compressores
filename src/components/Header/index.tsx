@@ -5,8 +5,8 @@ export function Header() {
       <div className="flex items-center">
         <nav className="">
           <a href="" className="pl-28 pr-8 text-gray-400 hover:text-gray-200 transition-colors">Início</a>
-          <a href="" className="pr-8 text-gray-400 hover:text-gray-200 transition-colors">Quem somos</a>
-          <a href="" className="pr-8 text-gray-400 hover:text-gray-200 transition-colors">Onde estamos</a>
+          <a href="" className="pr-8 text-gray-400 hover:text-gray-200 transition-colors">Serviços</a>
+          <a href="" className="pr-8 text-gray-400 hover:text-gray-200 transition-colors">Sobre nós</a>
           <a href="" className="pr-8 text-gray-400 hover:text-gray-200 transition-colors">Contato</a>
         </nav>
       </div>
