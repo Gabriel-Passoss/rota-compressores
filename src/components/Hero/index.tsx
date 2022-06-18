@@ -4,8 +4,8 @@ import { Numbers } from './numbers'
 export function Hero() {
   return (
     <>
-      <section className="h-[46rem] bg-[#333333] flex">
-        <div className="ml-36 mt-44 absolute">
+      <section className="h-[53rem] bg-[#333333] flex justify-around items-center">
+        <div className="ml-20">
           <p className="text-lg text-[#FFA303] font-semibold ">BOAS-VINDAS A ROTA COMPRESSORES 🛠️</p>
           <h2 className="mt-12 font-main text-5xl text-gray-300 font-semibold">Assistência técnica especializada <br/> em compressores de ar</h2>
           <p className="mt-12 font-main text-xl text-gray-300 font-thin">Equipe altamente qualificada. Manutenção ágil e de qualidade<br/></p>
@@ -16,14 +16,14 @@ export function Hero() {
           </button>
         </div>
         <div className="">
-          <img src="/images/hero.webp" alt="" className="ml-[50rem] w-[61rem] h-[40rem]"/>
+          <img src="/images/Background.png" alt="" className="h-[50rem] mt-[3rem] mr-32"/>
         </div>
       </section>
-      <div className="absolute mt-[-6rem] ml-[25rem] w-[70rem] h-[10rem] bg-slate-50 flex justify-center">
-        <Numbers number="+3.500" subTitle="Clientes atendidos"/>
+      {/* <div className="absolute mt-[-7rem] ml-[25rem] w-[70rem] h-[10rem] bg-slate-50 flex justify-center">
+        <Numbers number="+1.000" subTitle="Clientes atendidos"/>
         <Numbers number="+15" subTitle="Profissionais" />
         <Numbers number="+25" subTitle="Anos de experiência"/>
-      </div>
+      </div> */}
     </>
   )
 }

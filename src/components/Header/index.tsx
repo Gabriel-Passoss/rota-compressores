@@ -12,7 +12,7 @@ export function Header() {
           <a href="" className="mr-8 text-gray-400 hover:text-gray-200 transition-colors duration-500">Contato</a>
         </nav>
       </div>
-      <div className="mr-16 mt-4">
+      <div className="mr-16 mt-5">
         <button type="button" className="border-solid border border-zinc-400 rounded-[3rem] justify-items-center py-2.5 px-7 text-zinc-300 font-bold text-lg hover:text-zinc-100 hover:border-zinc-200 transition-colors duration-300">
         Fazer Orçamento
         </button>
